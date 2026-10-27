@@ -1,0 +1,15 @@
+# Core
+python-dotenv>=1.0.0
+numpy>=1.24
+sounddevice>=0.4.6        # microphone + speaker (bundles PortAudio on Windows)
+
+# Speech-to-text (local, runs on CPU)
+faster-whisper>=1.0.0
+
+# LLM client (works with OpenAI, Groq, Gemini's OpenAI-compatible endpoint, Ollama, ...)
+openai>=1.30.0
+
+# Text-to-speech
+edge-tts>=6.1.9           # free online voices, no API key (needs internet)
+miniaudio>=1.59           # decodes edge-tts MP3 so it can be played/interrupted
+pyttsx3>=2.90; sys_platform == "win32"   # offline fallback (Windows built-in voices)

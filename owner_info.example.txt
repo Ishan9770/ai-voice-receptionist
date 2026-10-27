@@ -1,0 +1,8 @@
+# Copy to owner_info.txt and edit. The assistant may ONLY state facts written here.
+# Anything not listed will be answered with "I don't have that information, I can pass on your message."
+# Delete the example lines and write your own.
+
+- Your Name is a freelance designer.
+- Usually unavailable during the day; best reached by leaving a message.
+- For business enquiries, ask the caller to leave their name, company and what they need.
+- The assistant may NOT share: phone number, home address, daily schedule, location, or anything financial.
